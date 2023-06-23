@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Bingo</title>
+</head>
+
+<body>
+   
+<h1 class="titulo">BINGO!</h1>
+    <section id="area_jogo">
+        <div id="area_cartelas">
+            <div id="area_cartelas_botoes">
+                <button onclick="criarCartela()">Gerar Cartela</button>
+                <button onclick="reiniciarJogo()">Reiniciar Jogo!</button>
+            </div>
+            <div id="area_cartelas_bingo">
+
+            </div>
+        </div>
+
+        <div id="area_numeros">
+            <div id="area_numeros_botoes">
+                <button onclick="GerarResultados()">Jogar</button>
+            </div>
+            <div id="area_numeros_resultados">
+
+            </div>
+        </div>
+    </section>
+
+    <script src="CriarTabela.js"></script>
+    <script src="ReiniciarJogo.js"></script>
+    <script src="GerarResultados.js"></script>
+</body>
+
+</html>
